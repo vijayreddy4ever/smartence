@@ -57,7 +57,7 @@ li.nav-item {
 
 /*why us section*/
 .why-choose-us figure img{
-    width:125px;
+    width:70px;
 }
 .why-choose-us .picture {
     display: flex;
@@ -91,9 +91,10 @@ li.nav-item {
 /*smartence*/
 #menu-logo a, .jkl-footer-logo{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
     font-weight: bold;
+	line-height: 89px;
 }
 .jkl-slider-container{
     background-attachment: fixed;

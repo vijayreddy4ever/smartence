@@ -278,7 +278,7 @@ label {
 
 
 .jkl-slider-container {
-    height: 800px;
+    height: 650px;
     position: relative;
     top: 0px;
     background-position: center center;
@@ -292,8 +292,8 @@ label {
     padding: 0px;
 }
 .jkl-slider-content h1 {
-    font-size: 60px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 600;
     color: #fff;
     line-height: 1;
     margin-bottom: 20px;
@@ -357,6 +357,7 @@ label {
     max-height:100%;
     position: relative;
     top: 6px;
+
 }
 .jkl-slider::before {
     position: absolute;
@@ -368,16 +369,16 @@ label {
 }
 
 .slick-slide:nth-child(1n)  .jkl-slider-container {
-    background-image:url("../images/phython-web.webp");
+    background-image:url("../images/slider-6.jpg");
 }
 .slick-slide:nth-child(2n) .jkl-slider-container {
-    background-image: url("../images/phython-banner-3.png");
+    background-image: url("../images/slider-2.jpg");
 }
 .slick-slide:nth-child(3n) .jkl-slider-container {
-    background-image: url("../images/phython-django.jpg");
+    background-image: url("../images/slider-3.jpg");
 }
 .slick-slide:nth-child(4n) .jkl-slider-container {
-    background-image: url("../images/institue-banner-image.jpg");
+    background-image: url("../images/slider-4.jpg");
 }
 .slick-slide:nth-child(5n) .jkl-slider-container {
     background-image: url("../images/banner-07.jpg");
@@ -458,7 +459,7 @@ label {
 }
 
 nav ul  a  {
-    color: #ffffff8a
+    color:#ffffff
 }
 nav ul  a:hover  {
     color: #ff5e14
