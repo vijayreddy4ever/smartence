@@ -108,7 +108,7 @@ function scrollFunction() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
     if (scrollTop == 0) {
         $("#menu-logo").height(this.headerLogoHeight)
-        $("#menu-logo").width(this.headerLogoHeight)
+        $("#menu-logo").width(this.headerLogoHeight)        
         $(".jkl-menu").css("background-color", "#00000000")
         return
     }
@@ -123,12 +123,15 @@ function scrollFunction() {
             $("#menu-logo").width(expHeight)
         } else {
             $("#menu-logo").height(finalHeight)
-            $("#menu-logo").width(finalHeight)
+            $("#menu-logo").width(finalHeight+95);
+            $("#menu-logo a").css("line-height", "normal");
             $(".jkl-menu").css("background-color", "#00000000")
         }
     } else {
         if (currentHeight <= finalHeight) {
             $(".jkl-menu").css("background-color", "#000000BC");
+            $("#menu-logo").width(finalHeight+95);
+            $("#menu-logo a").css("line-height", "normal");
             return
         }
             let expHeight = this.headerLogoHeight - heightDiff * scrollTop / movePx
@@ -137,8 +140,9 @@ function scrollFunction() {
                 $("#menu-logo").width(expHeight);
             } else {
                 $("#menu-logo").height(finalHeight);
-                $("#menu-logo").width(finalHeight);
-                $(".jkl-menu").css("background-color", "#000000BC")
+                $("#menu-logo").width(finalHeight+95);
+                $("#menu-logo a").css("line-height", "normal");
+                $(".jkl-menu").css("background-color", "#000000BC");
             }
 
 
