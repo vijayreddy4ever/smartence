@@ -106,3 +106,9 @@ li.nav-item {
 .jkl-counter, .jkl-home-updates-bg{
     background-image: url("../images/institue-banner-image.jpg");
 }
+.portfolio-content p{
+    margin:0;
+}
+.portfolio-thumb img{
+    min-height: 275px;
+}
