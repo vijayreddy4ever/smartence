@@ -250,7 +250,7 @@ label {
     width: 100%;
     padding-top: 30px;
     height: 100px;
-    background-image:url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     background-position: center center;
     transition: 0.8s;
 }
@@ -859,7 +859,7 @@ img {
 .jkl-home-parallex {
     position: relative;
     top: 0px;
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -870,7 +870,7 @@ img {
 .jkl-extra-activity-parallex {
     position: relative;
     top: 0px;
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -879,14 +879,14 @@ img {
 }
 
 .jkl-extra-activity-parallex-infra {
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
 }
 
 .jkl-home-parallex-about-us {
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
 }
 .jkl-yoga-parallex {
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
 }
 .jkl-home-parallex::before, .jkl-extra-activity-parallex::before {
     content: "";
@@ -1008,7 +1008,7 @@ img {
     position: relative;
     top: 0px;
 /*     background-image: url("../images/home_section4-bg.jpg"); */
-     background-image: url("../images/about-us-section3-bg.jpg");
+background-image: url("../images/institue-banner-image.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1017,7 +1017,7 @@ img {
 
 .jkl-counter-residental {
 /*     background-image: url("../images/residental-section5-bg.jpg"); */
-    background-image: url("../images/about-us-section3-bg.jpg");
+background-image: url("../images/institue-banner-image.jpg");
 }
 
 .counter-area {
@@ -1062,23 +1062,23 @@ img {
 /* Student Life */
 
 .jkl-scroll-container {
-    background-image: url("../../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .jkl-scroll-container-academics {
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
 }
 
 .jkl-scroll-container-residental {
 /*     background-image: url("../images/residental-section9-bg.jpg"); */
-    background-image: url("../images/about-us-section3-bg.jpg");
+background-image: url("../images/institue-banner-image.jpg");
 }
 
 .jkl-scroll-container-academics2 {
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
 }
 
 .jkl-header-bg h1 {
@@ -1154,7 +1154,7 @@ main {
     left: 0px;
     width: 100%;
     height: 165%;
-    background-image: url("../images/home/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1204,7 +1204,7 @@ main {
     left: 0px;
     width: 100%;
     height: 160%;
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1219,7 +1219,7 @@ main {
     left: 0px;
     width: 100%;
     height: 160%;
-    background-image: url("../images/about-us-section3-bg.jpg");
+    background-image: url("../images/institue-banner-image.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
