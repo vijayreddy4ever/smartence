@@ -112,3 +112,6 @@ li.nav-item {
 .portfolio-thumb img{
     min-height: 275px;
 }
+#contact .jkl-counter::before{
+    z-index: -999;
+}
