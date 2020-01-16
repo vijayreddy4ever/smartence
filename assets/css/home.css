@@ -115,3 +115,14 @@ li.nav-item {
 #contact .jkl-counter::before{
     z-index: -999;
 }
+#course-details li>span, #full-stack-course-details li>span {
+    padding-right: 5px;
+    color: #ea0a0a;
+}
+#course-details li, #full-stack-course-details li{
+    padding: 5px;
+}
+#course-details div h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
